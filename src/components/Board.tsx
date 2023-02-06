@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Square from "./Square";
-import './board.scss'
+import "./board.scss";
 
 const Board = () => {
   const [state, setState] = useState(Array(9).fill(null));

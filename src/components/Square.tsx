@@ -1,7 +1,12 @@
 import React from "react";
 import './square.scss'
 
-const Square= ({ value, onClick }) => {
+
+interface squareProps {
+  value:null|number;
+  onClick:()=>void;
+}
+const Square= ({ value, onClick }:squareProps) => {
   return (
     <div
       onClick={onClick}
